@@ -219,12 +219,13 @@
     </div>
 
     <script>
+        var linkBase = "https://wa.me/972559839839?text=";
         function showContact() {
-            window.location = "https://wa.me/972559839839"
+            window.location = linkBase + "היי לוזי!"
         }
 
         function showFeedback() {
-            window.location = "https://wa.me/972559839839?text=" + "היי לוזי, יש לי פידבק:" + encodeURIComponent("\n")
+            window.location = linkBase + "היי לוזי, יש לי פידבק:" + encodeURIComponent("\n")
         }
     </script>
 </body>
